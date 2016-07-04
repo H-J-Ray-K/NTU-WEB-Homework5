@@ -1,6 +1,9 @@
+body {
+    font-family: Microsoft JhengHei;
+}
 .HW5-1 {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     text-align: center;
     box-sizing:  border-box;
     
@@ -12,7 +15,7 @@
     height: 15%;
     padding: 2%;
     border-bottom: 2px solid white;
-    line-height: 200%;
+    line-height: 300%;
 }
 .nav1 {
     background-color: #e8e817;
@@ -32,7 +35,7 @@
     padding: 2%;
     border-right: 2px solid white;
     border-bottom: 2px solid white;
-    line-height: 750%;
+    line-height: 900%;
 }
 .main {
     background-color: #81bf22;
@@ -41,7 +44,7 @@
     height: 50%;
     padding: 2%;
     border-bottom: 2px solid white;
-    line-height: 750%;
+    line-height: 900%;
 }
 .footer {
     background-color: orange;
@@ -50,28 +53,31 @@
     height: 10%;
     padding: 2%;
     border-bottom: 2px solid white;
-    line-height: 150%;
+    line-height: 200%;
 }
 
 .nav2>li {
     display: inline-block;
     position: relative;
     padding: 5px 20px;
-    border: 1px solid #ccc;
+    background: black;
+    color: white;
+    border: 2px solid #ccc;
     border-right: 0;
     margin-left: -5px;
-    width:10%;
+    width: 10%;
+    border-radius: 5px;
 }
 .nav2>li: last-child{
-    border-right: 1px solid #ddd;
+    border-right: 2px solid #ddd;
 }
 
 .submenu {
-    background: #eee;
+    background: #7c7a7a;
     width: 150px;
     padding: 0px;
     position: absolute;
-    left: -1px;
+    left: 15px;
     top: 100%;
     border: 1px solid #ddd;
     border-radius: 6px;
@@ -86,6 +92,21 @@
     display: block;
 }
 .submenu li:hover{
-  color: gray;
+  color: darkblue;
   background: white;
+}
+
+.reddot {
+    position: fixed;
+    top: 100px;
+    left: 350px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: red;
+    text-align: center;
+    font-weight: 900;
+    line-height: 250%;
+    border-radius: 50%;
 }
